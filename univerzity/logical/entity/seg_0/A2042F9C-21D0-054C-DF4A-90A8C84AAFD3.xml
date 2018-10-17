@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A2042F9C-21D0-054C-DF4A-90A8C84AAFD3" name="univerzita">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-10-17 13:13:36 UTC</createdTime>
+<ownerDesignName>univerzity</ownerDesignName>
+<engineerTo>
+<item key="25A412A1-6249-8066-6F60-A74A98B43A39" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idu" id="E6A171C2-BE32-4C39-5173-B03636BA14C4">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-10-17 13:13:47 UTC</createdTime>
+<ownerDesignName>univerzity</ownerDesignName>
+<engineerTo>
+<item key="25A412A1-6249-8066-6F60-A74A98B43A39" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazev" id="C4932D66-CD9A-B665-416B-043F044E9563">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-10-17 13:14:02 UTC</createdTime>
+<ownerDesignName>univerzity</ownerDesignName>
+<engineerTo>
+<item key="25A412A1-6249-8066-6F60-A74A98B43A39" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FCB10B90-9FE3-7741-2C8C-86985A59C16B" name="univerzita PK">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-10-17 13:13:59 UTC</createdTime>
+<ownerDesignName>univerzity</ownerDesignName>
+<engineerTo>
+<item key="25A412A1-6249-8066-6F60-A74A98B43A39" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E6A171C2-BE32-4C39-5173-B03636BA14C4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

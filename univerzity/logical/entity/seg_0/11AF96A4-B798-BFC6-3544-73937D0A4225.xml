@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="11AF96A4-B798-BFC6-3544-73937D0A4225" name="oddeleni">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-10-17 13:08:27 UTC</createdTime>
+<ownerDesignName>univerzity</ownerDesignName>
+<engineerTo>
+<item key="25A412A1-6249-8066-6F60-A74A98B43A39" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ido" id="F7418538-747D-D519-7830-6E832F6D522D">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-10-17 13:08:42 UTC</createdTime>
+<ownerDesignName>univerzity</ownerDesignName>
+<engineerTo>
+<item key="25A412A1-6249-8066-6F60-A74A98B43A39" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazev" id="1A6ECE08-CA8E-4A98-5054-76C67A16F7B1">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-10-17 13:09:11 UTC</createdTime>
+<ownerDesignName>univerzity</ownerDesignName>
+<engineerTo>
+<item key="25A412A1-6249-8066-6F60-A74A98B43A39" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rozpocet" id="2BB6C61A-355F-2955-0ABD-7622DC0D3EDD">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-10-17 13:12:03 UTC</createdTime>
+<ownerDesignName>univerzity</ownerDesignName>
+<engineerTo>
+<item key="25A412A1-6249-8066-6F60-A74A98B43A39" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kategorie" id="882A4E9D-72A1-3B5A-0CD2-7D05A72D656A">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-10-17 13:12:52 UTC</createdTime>
+<ownerDesignName>univerzity</ownerDesignName>
+<engineerTo>
+<item key="25A412A1-6249-8066-6F60-A74A98B43A39" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idf" id="A747DF61-8AB7-1517-6A88-A1182D6CD4F4">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-10-17 13:21:11 UTC</createdTime>
+<generatorID>94C47A01-0E4B-CB74-2020-92299C1DEA1B</generatorID>
+<ownerDesignName>univerzity</ownerDesignName>
+<engineerTo>
+<item key="25A412A1-6249-8066-6F60-A74A98B43A39" value="true"/>
+</engineerTo>
+<referedAttribute>2279DBBD-24DD-BFA5-AA25-C5642321F649</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idu" id="FDC230F6-CA9A-3220-18EA-4E4430430454">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-10-17 13:21:21 UTC</createdTime>
+<generatorID>7E3561B2-4A33-31CD-D7C9-D8961E516A93</generatorID>
+<ownerDesignName>univerzity</ownerDesignName>
+<engineerTo>
+<item key="25A412A1-6249-8066-6F60-A74A98B43A39" value="true"/>
+</engineerTo>
+<referedAttribute>E6A171C2-BE32-4C39-5173-B03636BA14C4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idu1" id="C9351EEA-4FCC-D035-9ECE-64DDFCA6929D">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-10-17 13:29:25 UTC</createdTime>
+<generatorID>94C47A01-0E4B-CB74-2020-92299C1DEA1B</generatorID>
+<ownerDesignName>univerzity</ownerDesignName>
+<engineerTo>
+<item key="25A412A1-6249-8066-6F60-A74A98B43A39" value="true"/>
+</engineerTo>
+<referedAttribute>1E29DB91-9489-B5B3-8BC7-DF3C805CD667</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5DB9C801-0E47-4E18-98AB-13A42E45E218" name="oddeleni PK">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-10-17 13:09:46 UTC</createdTime>
+<ownerDesignName>univerzity</ownerDesignName>
+<engineerTo>
+<item key="25A412A1-6249-8066-6F60-A74A98B43A39" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F7418538-747D-D519-7830-6E832F6D522D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

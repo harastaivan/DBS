@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="9A4EB60A-7DBD-7009-E045-EAC448EBB754">
+<createdBy>harasiva</createdBy>
+<modifiedBy>harasiva</modifiedBy>
+<createdTime>2018-10-17 13:08:18 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>true</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="11AF96A4-B798-BFC6-3544-73937D0A4225" otype="Entity" vid="611FAF67-216D-4727-4BDB-9B9FC4F0F28F">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="610" y="318" width="156" height="124"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="6A5008EC-D8F0-1B65-242E-34812285DE8E" otype="Entity" vid="9DB46D43-7AA8-D3E9-05A6-0A7825634398">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="950" y="585" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="A2042F9C-21D0-054C-DF4A-90A8C84AAFD3" otype="Entity" vid="31E32F84-E78C-7FBE-EE3A-F12F3EDA73E4">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="944" y="314" width="170" height="110"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="61E0D223-0D56-7A28-D4BC-E260073A05FB" otype="Relation" vid_source="31E32F84-E78C-7FBE-EE3A-F12F3EDA73E4" vid_target="9DB46D43-7AA8-D3E9-05A6-0A7825634398">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<sourceLabel class="oracle.dbtools.crest.model.design.Label">
+<site>0</site>
+<labelBounds x="1032" y="460" width="56" height="30"/>
+<noBackgroundColor>true</noBackgroundColor>
+<noForegroundColor>true</noForegroundColor>
+</sourceLabel>
+<targetLabel class="oracle.dbtools.crest.model.design.Label">
+<site>2</site>
+<labelBounds x="1032" y="549" width="50" height="30"/>
+<noBackgroundColor>true</noBackgroundColor>
+<noForegroundColor>true</noForegroundColor>
+</targetLabel>
+<points>
+<point x="1032" y="424"/>
+<point x="1032" y="585"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="7E3561B2-4A33-31CD-D7C9-D8961E516A93" otype="Relation" vid_source="31E32F84-E78C-7FBE-EE3A-F12F3EDA73E4" vid_target="611FAF67-216D-4727-4BDB-9B9FC4F0F28F">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<sourceLabel class="oracle.dbtools.crest.model.design.Label">
+<site>0</site>
+<labelBounds x="882" y="341" width="56" height="30"/>
+<noBackgroundColor>true</noBackgroundColor>
+<noForegroundColor>true</noForegroundColor>
+</sourceLabel>
+<targetLabel class="oracle.dbtools.crest.model.design.Label">
+<site>2</site>
+<labelBounds x="776" y="374" width="50" height="30"/>
+<noBackgroundColor>true</noBackgroundColor>
+<noForegroundColor>true</noForegroundColor>
+</targetLabel>
+<points>
+<point x="944" y="371"/>
+<point x="766" y="371"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="94C47A01-0E4B-CB74-2020-92299C1DEA1B" otype="Relation" vid_source="9DB46D43-7AA8-D3E9-05A6-0A7825634398" vid_target="611FAF67-216D-4727-4BDB-9B9FC4F0F28F">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="950" y="642"/>
+<point x="689" y="642"/>
+<point x="689" y="442"/>
+</points>
+</Connector>
+</connectors>
+<arcs>
+<Arc class="oracle.dbtools.crest.swingui.logical.TVArc" oid="43C24AA9-2685-7529-3498-B57C53C472C7" otype="Arc" vid="7454AF32-45C9-706E-AD7B-B2DE97FD00C9">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="590" y="298" width="196" height="164"/>
+</Arc>
+</arcs>
+</Diagram>

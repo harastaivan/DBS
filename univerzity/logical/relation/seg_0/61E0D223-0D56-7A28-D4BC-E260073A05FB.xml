@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="61E0D223-0D56-7A28-D4BC-E260073A05FB">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-10-17 13:18:49 UTC</createdTime>
+<ownerDesignName>univerzity</ownerDesignName>
+<engineerTo>
+<item key="25A412A1-6249-8066-6F60-A74A98B43A39" value="true"/>
+</engineerTo>
+<sourcePk>FCB10B90-9FE3-7741-2C8C-86985A59C16B</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>obsahuje</nameOnSource>
+<nameOnTarget>patri_na</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A2042F9C-21D0-054C-DF4A-90A8C84AAFD3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6A5008EC-D8F0-1B65-242E-34812285DE8E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

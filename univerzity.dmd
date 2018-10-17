@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="univerzity" id="F9766F08-9121-B1C2-B74D-6BFED880FBD6" version="3.5">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-10-17 13:07:23 UTC</createdTime>
+<ownerDesignName>univerzity</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F9766F08-9121-B1C2-B74D-6BFED880FBD6</designId>
+</OSDM_Design>
