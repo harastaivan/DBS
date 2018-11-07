@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="7BDE5380-0FAB-9215-22A0-64DD24C034E7">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-11-07 06:39:59 UTC</createdTime>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

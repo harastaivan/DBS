@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="blancpain_gt_series" id="E8DDF6C7-F8EB-5204-E2CB-9DE5A32C068C" version="3.5">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-11-07 06:39:59 UTC</createdTime>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E8DDF6C7-F8EB-5204-E2CB-9DE5A32C068C</designId>
+</OSDM_Design>

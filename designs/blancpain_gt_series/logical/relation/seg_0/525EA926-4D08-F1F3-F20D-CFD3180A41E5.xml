@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="driver_qualifying_results" directorySegmentName="seg_0" id="525EA926-4D08-F1F3-F20D-CFD3180A41E5">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-11-07 07:56:13 UTC</createdTime>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<engineerTo>
+<item key="9DBCFA89-0E93-1BFE-DAC2-B94310D3861E" value="true"/>
+</engineerTo>
+<sourcePk>43DD188E-EBE9-7FFE-9299-2DBFAEDDFCBD</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>has results</nameOnSource>
+<nameOnTarget>results of driver</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0CAB07AA-7CF9-3A5B-D286-A68E0CECFBF8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3AFE980E-F2CF-6DB5-7DD1-FFA78CA9C35F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

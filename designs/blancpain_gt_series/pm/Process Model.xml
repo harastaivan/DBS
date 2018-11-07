@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="86F6CE82-4188-EFAD-42EF-EA2D8ACBEC1C">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-11-07 06:39:59 UTC</createdTime>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

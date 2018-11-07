@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="8259D66D-527B-879D-1813-9AB0E45F7712" mainViewID="3747141A-1E49-FF85-F695-9F52F52F90EE">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-11-07 06:39:59 UTC</createdTime>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

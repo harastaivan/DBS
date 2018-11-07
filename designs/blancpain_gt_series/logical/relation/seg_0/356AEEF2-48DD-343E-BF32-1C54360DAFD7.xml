@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_8" directorySegmentName="seg_0" id="356AEEF2-48DD-343E-BF32-1C54360DAFD7">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-11-07 07:53:58 UTC</createdTime>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<engineerTo>
+<item key="9DBCFA89-0E93-1BFE-DAC2-B94310D3861E" value="true"/>
+</engineerTo>
+<sourcePk>F4A30588-73D4-4713-9CCB-1CD36AD4BBC7</sourcePk>
+<targetPk>FEFDA260-C700-824B-2969-E081B068BB92</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>54F22CC3-E40D-DEC3-6625-95BFA40DE67F</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>07B39754-ADB8-1274-3A92-F0A26B99C2E3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
