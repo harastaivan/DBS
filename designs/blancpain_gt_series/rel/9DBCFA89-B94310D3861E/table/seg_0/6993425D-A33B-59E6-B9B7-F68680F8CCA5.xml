@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6993425D-A33B-59E6-B9B7-F68680F8CCA5" name="Grid">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-11-07 14:43:11 UTC</createdTime>
+<generatorID>54F22CC3-E40D-DEC3-6625-95BFA40DE67F</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="grid_id" id="E54B815F-DEB3-1A09-86EE-D643352A5A98">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-11-07 14:43:11 UTC</createdTime>
+<generatorID>A1943AAE-D90D-B2F6-D78F-F44353F2634D</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Race_session_id" id="AAF64F6C-F40F-2B13-1563-C02ABFB08131">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-11-07 14:43:11 UTC</createdTime>
+<generatorID>2D146C42-2FCC-FA0E-096D-643863663432</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="816F3073-36C7-D3E2-0382-1E794FF0FB5D" referredColumn="7F18C3B3-7907-EB9B-35D7-1E684CF6DF24"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7AF1A89-7484-C304-D525-19A451D96B43" name="Grid_PK">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-11-07 14:43:11 UTC</createdTime>
+<generatorID>F4A30588-73D4-4713-9CCB-1CD36AD4BBC7</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E54B815F-DEB3-1A09-86EE-D643352A5A98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C6A6AFB-5016-0B67-FF8D-58BA6F0FE712" name="Grid__IDX">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-11-07 14:43:11 UTC</createdTime>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>356AEEF2-48DD-343E-BF32-1C54360DAFD7</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="AAF64F6C-F40F-2B13-1563-C02ABFB08131"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C95BA7EF-9A4A-84AD-AB6D-A032BDF0042B" name="Grid_Race_FK">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-11-07 14:43:11 UTC</createdTime>
+<generatorID>356AEEF2-48DD-343E-BF32-1C54360DAFD7</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAF64F6C-F40F-2B13-1563-C02ABFB08131"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
