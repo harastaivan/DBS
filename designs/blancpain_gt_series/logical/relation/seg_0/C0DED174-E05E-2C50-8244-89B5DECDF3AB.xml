@@ -7,12 +7,11 @@
 <item key="9DBCFA89-0E93-1BFE-DAC2-B94310D3861E" value="true"/>
 </engineerTo>
 <sourcePk>FEFDA260-C700-824B-2969-E081B068BB92</sourcePk>
-<targetPk>F44C84AF-AFF4-5616-1EEB-AABD20005C81</targetPk>
 <identifying>false</identifying>
 <nameOnSource>has results</nameOnSource>
 <nameOnTarget>results of race</nameOnTarget>
-<optionalSource>false</optionalSource>
-<optionalTarget>true</optionalTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>07B39754-ADB8-1274-3A92-F0A26B99C2E3</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>

@@ -10,8 +10,8 @@
 <identifying>false</identifying>
 <nameOnSource>has results</nameOnSource>
 <nameOnTarget>results of driver</nameOnTarget>
-<optionalSource>false</optionalSource>
-<optionalTarget>true</optionalTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>0CAB07AA-7CF9-3A5B-D286-A68E0CECFBF8</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>

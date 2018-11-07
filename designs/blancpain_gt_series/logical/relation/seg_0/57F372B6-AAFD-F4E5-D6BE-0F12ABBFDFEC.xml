@@ -7,12 +7,11 @@
 <item key="9DBCFA89-0E93-1BFE-DAC2-B94310D3861E" value="true"/>
 </engineerTo>
 <sourcePk>A6EA1E4C-CD44-F930-33BC-8D8F49291EAB</sourcePk>
-<targetPk>43DD188E-EBE9-7FFE-9299-2DBFAEDDFCBD</targetPk>
 <identifying>false</identifying>
 <nameOnSource>is driven by</nameOnSource>
 <nameOnTarget>drives</nameOnTarget>
-<optionalSource>false</optionalSource>
-<optionalTarget>true</optionalTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>BC127FEA-E230-551F-1D8D-0530AFA36110</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
