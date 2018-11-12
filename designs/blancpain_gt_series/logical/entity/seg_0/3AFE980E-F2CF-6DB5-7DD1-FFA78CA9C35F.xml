@@ -4,7 +4,7 @@
 <createdTime>2018-11-07 07:55:25 UTC</createdTime>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
 <engineerTo>
-<item key="9DBCFA89-0E93-1BFE-DAC2-B94310D3861E" value="true"/>
+<item key="1B8632C1-662A-1051-B5F6-ABE2B3EC7A63" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,10 +20,11 @@
 <createdTime>2018-11-07 07:55:25 UTC</createdTime>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
 <engineerTo>
-<item key="9DBCFA89-0E93-1BFE-DAC2-B94310D3861E" value="true"/>
+<item key="1B8632C1-662A-1051-B5F6-ABE2B3EC7A63" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="driver_id1" id="7611D00B-4269-5E19-B71D-D324B370DECD">
@@ -32,12 +33,36 @@
 <generatorID>525EA926-4D08-F1F3-F20D-CFD3180A41E5</generatorID>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
 <engineerTo>
-<item key="9DBCFA89-0E93-1BFE-DAC2-B94310D3861E" value="true"/>
+<item key="1B8632C1-662A-1051-B5F6-ABE2B3EC7A63" value="true"/>
 </engineerTo>
 <referedAttribute>727382E0-D928-BA7E-9957-A2CBC82F6F3F</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="place" id="2F9A2A38-F698-AB58-21C4-7159ED22C463">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-12 15:31:54 UTC</createdTime>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<engineerTo>
+<item key="1B8632C1-662A-1051-B5F6-ABE2B3EC7A63" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="best_laptime" id="0A23F893-5759-2B69-4267-6037E7B29A86">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-12 15:32:04 UTC</createdTime>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<engineerTo>
+<item key="1B8632C1-662A-1051-B5F6-ABE2B3EC7A63" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="session_id" id="9E5962B4-FB2A-58B7-2F47-181B1DF635A3">
@@ -46,7 +71,7 @@
 <generatorID>1D001B4F-E424-E471-7051-99010EF35347</generatorID>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
 <engineerTo>
-<item key="9DBCFA89-0E93-1BFE-DAC2-B94310D3861E" value="true"/>
+<item key="1B8632C1-662A-1051-B5F6-ABE2B3EC7A63" value="true"/>
 </engineerTo>
 <referedAttribute>23F3BAFF-F248-B680-951D-282E6F2415A5</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -54,15 +79,15 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="grid_id" id="7278D9F4-7C1D-B429-1F00-252F6C2E4FC0">
-<createdBy>harasiva</createdBy>
-<createdTime>2018-11-07 07:59:01 UTC</createdTime>
+<Attribute name="session_id1" id="D53C7175-D1B8-19C2-A885-A4C651B7586A">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-12 15:30:43 UTC</createdTime>
 <generatorID>3C0A0826-0C39-3ABF-A6E9-7DDDEA5F9066</generatorID>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
 <engineerTo>
-<item key="9DBCFA89-0E93-1BFE-DAC2-B94310D3861E" value="true"/>
+<item key="1B8632C1-662A-1051-B5F6-ABE2B3EC7A63" value="true"/>
 </engineerTo>
-<referedAttribute>A1943AAE-D90D-B2F6-D78F-F44353F2634D</referedAttribute>
+<referedAttribute>23F3BAFF-F248-B680-951D-282E6F2415A5</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -75,7 +100,7 @@
 <createdTime>2018-11-07 07:55:25 UTC</createdTime>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
 <engineerTo>
-<item key="9DBCFA89-0E93-1BFE-DAC2-B94310D3861E" value="true"/>
+<item key="1B8632C1-662A-1051-B5F6-ABE2B3EC7A63" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

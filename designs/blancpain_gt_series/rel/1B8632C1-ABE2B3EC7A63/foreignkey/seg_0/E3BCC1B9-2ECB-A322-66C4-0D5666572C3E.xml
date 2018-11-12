@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E3BCC1B9-2ECB-A322-66C4-0D5666572C3E" containerWithKeyObject="4D4D5DDA-ACD0-34AF-8457-3B6B7AAC8DC1" localFKIndex="836C6C7B-4C53-B8B2-207B-0EA65BE30D96" name="Session_Circuit_FK">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-12 15:48:42 UTC</createdTime>
+<generatorID>4A1CBB56-472F-E1E0-B694-2F330583283B</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<referredTableLongName>Circuit</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>59A6BE6B-5A61-9BA0-4EEA-088AD2B81164</referredTableID>
+<keyObject>2F641F4C-C974-4A5A-A604-5C7BF0F25773</keyObject>
+<referredKeyID>2F641F4C-C974-4A5A-A604-5C7BF0F25773</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>circuit_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

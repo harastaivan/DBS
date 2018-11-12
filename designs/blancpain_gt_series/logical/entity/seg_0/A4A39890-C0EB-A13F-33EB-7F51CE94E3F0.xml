@@ -4,7 +4,7 @@
 <createdTime>2018-11-07 07:25:34 UTC</createdTime>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
 <engineerTo>
-<item key="9DBCFA89-0E93-1BFE-DAC2-B94310D3861E" value="true"/>
+<item key="1B8632C1-662A-1051-B5F6-ABE2B3EC7A63" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,4 +15,18 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="duration" id="1F3F7A25-8AE7-DA14-EC34-3C458E090BC3">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-12 15:23:14 UTC</createdTime>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<engineerTo>
+<item key="1B8632C1-662A-1051-B5F6-ABE2B3EC7A63" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
 </Entity>

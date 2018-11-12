@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="0C814B3D-F136-FC19-74B9-D22DF48C4417" name="FKArc_1">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-12 15:48:42 UTC</createdTime>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>4D4D5DDA-ACD0-34AF-8457-3B6B7AAC8DC1</table>
+<fkeys>
+<fkeyID>9C4A0DE6-8E8B-174C-D004-0E611C4922A8</fkeyID>
+<fkeyID>FC96DABF-9F06-0EE3-605A-C08A00989A4C</fkeyID>
+</fkeys>
+</FKArc>

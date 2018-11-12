@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9AEAE5D5-8E7B-A48E-0075-2177FD7C0E9B" containerWithKeyObject="DB6F8F43-3EC7-C985-B737-BE3807480B55" localFKIndex="C6059A44-0DE3-0C43-49EA-3F239E7F2C27" name="Qualifying_results_Qualifying_FK">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-12 15:48:42 UTC</createdTime>
+<generatorID>1D001B4F-E424-E471-7051-99010EF35347</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<referredTableLongName>Qualifying</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CCDAE192-9170-AF59-2759-F1C04700CABF</referredTableID>
+<keyObject>A393377D-3C69-39F2-BABC-9CD09729B543</keyObject>
+<referredKeyID>A393377D-3C69-39F2-BABC-9CD09729B543</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>session_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

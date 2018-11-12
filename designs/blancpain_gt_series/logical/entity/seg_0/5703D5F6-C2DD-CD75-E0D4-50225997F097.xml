@@ -4,7 +4,7 @@
 <createdTime>2018-11-07 07:31:31 UTC</createdTime>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
 <engineerTo>
-<item key="9DBCFA89-0E93-1BFE-DAC2-B94310D3861E" value="true"/>
+<item key="1B8632C1-662A-1051-B5F6-ABE2B3EC7A63" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,10 +20,11 @@
 <createdTime>2018-11-07 07:32:19 UTC</createdTime>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
 <engineerTo>
-<item key="9DBCFA89-0E93-1BFE-DAC2-B94310D3861E" value="true"/>
+<item key="1B8632C1-662A-1051-B5F6-ABE2B3EC7A63" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="driver_id" id="05AF672A-F5AF-5ADF-AC58-0B80A3D58B78">
@@ -32,7 +33,7 @@
 <generatorID>DE0CAD76-F038-0675-D044-7614D9668FBD</generatorID>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
 <engineerTo>
-<item key="9DBCFA89-0E93-1BFE-DAC2-B94310D3861E" value="true"/>
+<item key="1B8632C1-662A-1051-B5F6-ABE2B3EC7A63" value="true"/>
 </engineerTo>
 <referedAttribute>727382E0-D928-BA7E-9957-A2CBC82F6F3F</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -46,9 +47,33 @@
 <generatorID>C0DED174-E05E-2C50-8244-89B5DECDF3AB</generatorID>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
 <engineerTo>
-<item key="9DBCFA89-0E93-1BFE-DAC2-B94310D3861E" value="true"/>
+<item key="1B8632C1-662A-1051-B5F6-ABE2B3EC7A63" value="true"/>
 </engineerTo>
 <referedAttribute>23F3BAFF-F248-B680-951D-282E6F2415A5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="place" id="4A2C3F59-7447-33A6-AA3C-FB0632C6D2C3">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-12 15:36:26 UTC</createdTime>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<engineerTo>
+<item key="1B8632C1-662A-1051-B5F6-ABE2B3EC7A63" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="incident_points" id="D9803D2D-167C-FFF4-B347-10229C358282">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-12 15:37:04 UTC</createdTime>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<engineerTo>
+<item key="1B8632C1-662A-1051-B5F6-ABE2B3EC7A63" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -61,7 +86,7 @@
 <createdTime>2018-11-07 07:32:29 UTC</createdTime>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
 <engineerTo>
-<item key="9DBCFA89-0E93-1BFE-DAC2-B94310D3861E" value="true"/>
+<item key="1B8632C1-662A-1051-B5F6-ABE2B3EC7A63" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
