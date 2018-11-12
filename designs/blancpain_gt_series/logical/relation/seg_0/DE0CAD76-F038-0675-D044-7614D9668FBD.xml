@@ -1,19 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="driver_results" directorySegmentName="seg_0" id="DE0CAD76-F038-0675-D044-7614D9668FBD">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="racecar_results" directorySegmentName="seg_0" id="DE0CAD76-F038-0675-D044-7614D9668FBD">
 <createdBy>harasiva</createdBy>
 <createdTime>2018-11-07 07:33:56 UTC</createdTime>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
 <engineerTo>
-<item key="9DBCFA89-0E93-1BFE-DAC2-B94310D3861E" value="true"/>
+<item key="96FA102A-F7F3-FF04-D92E-F1DD00D7623F" value="true"/>
 </engineerTo>
-<sourcePk>43DD188E-EBE9-7FFE-9299-2DBFAEDDFCBD</sourcePk>
+<sourcePk>A6EA1E4C-CD44-F930-33BC-8D8F49291EAB</sourcePk>
 <identifying>false</identifying>
 <nameOnSource>has results</nameOnSource>
 <nameOnTarget>results of driver</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>0CAB07AA-7CF9-3A5B-D286-A68E0CECFBF8</sourceEntity>
+<sourceEntity>BC127FEA-E230-551F-1D8D-0530AFA36110</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>5703D5F6-C2DD-CD75-E0D4-50225997F097</targetEntity>
 <transferable>true</transferable>

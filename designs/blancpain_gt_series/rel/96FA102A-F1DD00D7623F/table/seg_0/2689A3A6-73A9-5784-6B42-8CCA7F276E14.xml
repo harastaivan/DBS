@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2689A3A6-73A9-5784-6B42-8CCA7F276E14" name="Circuit">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-12 17:56:28 UTC</createdTime>
+<generatorID>6619E1DD-B1FA-81D0-7042-DE2202ED6A80</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="circuit_id" id="66978E2F-0A41-6CB7-F2CD-FB21437A8B6E">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-12 17:56:28 UTC</createdTime>
+<generatorID>5E3AB018-086A-E519-76D9-990586278E51</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="CE886815-6464-0C37-F7AD-53AA5A1788C8">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-12 17:56:28 UTC</createdTime>
+<generatorID>978948E7-FFE9-F937-A825-ACFAC0CA2F8C</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country" id="28460309-2392-9487-3158-5A5898586401">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-12 17:56:28 UTC</createdTime>
+<generatorID>57A46FE4-EB7A-B0C1-798C-0593979BA9FB</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="corners" id="13AAA2A6-F015-9660-2F82-0AA86BA458D8">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-12 17:56:28 UTC</createdTime>
+<generatorID>6EF8C84A-ED5E-16FE-CFC2-62D95F0B8FB8</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="length" id="5AF7D32A-8A43-8B40-917D-A80CED3E6C3B">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-12 17:56:28 UTC</createdTime>
+<generatorID>F855F2D9-E32F-E97E-6279-B5925342EDA9</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="viewers_capacity" id="5FCFEFCC-0D79-4756-9665-4F24517D1831">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-12 17:56:28 UTC</createdTime>
+<generatorID>F0C8BC36-1E7A-0969-A8CE-D00D910B681F</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="car_capacity" id="B3C4AC00-0091-F410-0583-D6A8F114A7D7">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-12 17:56:28 UTC</createdTime>
+<generatorID>5DACE462-1B86-ADB6-6EBA-02C4707CE82B</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C8E7B63A-DFAF-4132-7A7D-7840294A5CB3" name="Circuit_PK">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-12 17:56:28 UTC</createdTime>
+<generatorID>9B02EBB8-680A-1435-D3A8-7FBE624AB905</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66978E2F-0A41-6CB7-F2CD-FB21437A8B6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

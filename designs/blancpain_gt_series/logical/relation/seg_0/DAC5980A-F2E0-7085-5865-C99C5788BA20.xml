@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Race_stint" directorySegmentName="seg_0" id="DAC5980A-F2E0-7085-5865-C99C5788BA20">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-12 17:40:15 UTC</createdTime>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<engineerTo>
+<item key="96FA102A-F7F3-FF04-D92E-F1DD00D7623F" value="true"/>
+</engineerTo>
+<sourcePk>FEFDA260-C700-824B-2969-E081B068BB92</sourcePk>
+<identifying>false</identifying>
+<nameOnTarget>is in</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>07B39754-ADB8-1274-3A92-F0A26B99C2E3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5E0FB047-3341-1BA5-969D-DE0929C61850</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
