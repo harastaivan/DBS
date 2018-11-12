@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3995856A-8B2A-4FA2-6E12-8F4369592397" containerWithKeyObject="5201ED73-7A6C-E80D-57F0-8ECA47996E66" localFKIndex="738DAEF4-5D94-551A-0FE0-9FDC4A46B23F" name="Driver_Racecar_FK">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-12 16:26:25 UTC</createdTime>
+<generatorID>57F372B6-AAFD-F4E5-D6BE-0F12ABBFDFEC</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<referredTableLongName>Racecar</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>98E7018B-B232-CFFB-F2FF-CE2719BA56F4</referredTableID>
+<keyObject>B407EC2D-6E6D-5647-E82F-0E6373F003F4</keyObject>
+<referredKeyID>B407EC2D-6E6D-5647-E82F-0E6373F003F4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>racecar_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
