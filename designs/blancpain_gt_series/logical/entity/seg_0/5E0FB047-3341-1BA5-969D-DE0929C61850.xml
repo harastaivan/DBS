@@ -22,7 +22,9 @@
 <engineerTo>
 <item key="96FA102A-F7F3-FF04-D92E-F1DD00D7623F" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="stint_sequence" id="37BDA6BF-06A0-B49F-F629-36C696AA5A71">
@@ -95,8 +97,9 @@
 <createdBy>haras</createdBy>
 <createdTime>2018-11-12 17:39:34 UTC</createdTime>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="96FA102A-F7F3-FF04-D92E-F1DD00D7623F" value="true"/>
+<item key="96FA102A-F7F3-FF04-D92E-F1DD00D7623F" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

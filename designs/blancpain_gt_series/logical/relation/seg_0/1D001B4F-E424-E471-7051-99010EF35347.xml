@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="qualifying_qualifying_results" directorySegmentName="seg_0" id="1D001B4F-E424-E471-7051-99010EF35347">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="quali_quali_results" directorySegmentName="seg_0" id="1D001B4F-E424-E471-7051-99010EF35347">
 <createdBy>harasiva</createdBy>
 <createdTime>2018-11-07 07:57:59 UTC</createdTime>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
 <engineerTo>
-<item key="1B8632C1-662A-1051-B5F6-ABE2B3EC7A63" value="true"/>
+<item key="96FA102A-F7F3-FF04-D92E-F1DD00D7623F" value="true"/>
 </engineerTo>
 <sourcePk>FEFDA260-C700-824B-2969-E081B068BB92</sourcePk>
 <identifying>false</identifying>

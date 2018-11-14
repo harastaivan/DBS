@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="racecar_qualifying_results" directorySegmentName="seg_0" id="525EA926-4D08-F1F3-F20D-CFD3180A41E5">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="racecar_quali_results" directorySegmentName="seg_0" id="525EA926-4D08-F1F3-F20D-CFD3180A41E5">
 <createdBy>harasiva</createdBy>
 <createdTime>2018-11-07 07:56:13 UTC</createdTime>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
@@ -7,7 +7,6 @@
 <item key="96FA102A-F7F3-FF04-D92E-F1DD00D7623F" value="true"/>
 </engineerTo>
 <sourcePk>A6EA1E4C-CD44-F930-33BC-8D8F49291EAB</sourcePk>
-<targetPk>16FD07E5-7835-566D-DA03-C196B5BC1F6A</targetPk>
 <identifying>false</identifying>
 <nameOnSource>has results</nameOnSource>
 <nameOnTarget>results of car</nameOnTarget>

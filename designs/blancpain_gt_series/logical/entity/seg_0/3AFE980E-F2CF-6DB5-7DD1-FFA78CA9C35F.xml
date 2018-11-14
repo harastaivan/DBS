@@ -93,14 +93,29 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="racecar_id1" id="63EAA19B-BBF8-0F76-F9B1-D01C36F8B7AC">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-11-14 13:38:23 UTC</createdTime>
+<generatorID>525EA926-4D08-F1F3-F20D-CFD3180A41E5</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<engineerTo>
+<item key="96FA102A-F7F3-FF04-D92E-F1DD00D7623F" value="true"/>
+</engineerTo>
+<referedAttribute>91753656-091A-5BA6-51A0-D4C8404A98D0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="16FD07E5-7835-566D-DA03-C196B5BC1F6A" name="Results PK">
 <createdBy>harasiva</createdBy>
 <createdTime>2018-11-07 07:55:25 UTC</createdTime>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="96FA102A-F7F3-FF04-D92E-F1DD00D7623F" value="true"/>
+<item key="96FA102A-F7F3-FF04-D92E-F1DD00D7623F" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

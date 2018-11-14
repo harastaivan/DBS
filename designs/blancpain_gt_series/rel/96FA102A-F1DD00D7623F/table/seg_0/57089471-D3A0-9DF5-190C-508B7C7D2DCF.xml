@@ -68,6 +68,21 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Racecar_racecar_id" id="0E233605-EE3A-3164-968F-6EB551185A0C">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-11-14 13:57:40 UTC</createdTime>
+<generatorID>C83014E2-2B35-C5B3-8E9E-2E0E30111F5C</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B4C7401-B3B2-5E41-C728-0D9663DFEA47" referredColumn="CAC64B11-F955-5A7C-12E6-20E12741AFB3"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="581D38FF-E447-6B5A-4E26-22B41D0492BE" name="Race_results_PK">
@@ -100,6 +115,9 @@
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E233605-EE3A-3164-968F-6EB551185A0C"/>
+</indexColumnUsage>
 </ind_PK_UK>
 </indexes>
 </Table>

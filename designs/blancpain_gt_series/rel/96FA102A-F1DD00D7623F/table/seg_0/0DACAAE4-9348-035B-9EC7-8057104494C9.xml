@@ -83,6 +83,33 @@
 <colAssociation fkAssociation="6BD52013-C4AC-5645-D52D-D98954AA441D" referredColumn="DEA38359-EC15-3E62-8EAF-E415A8877FF2"/>
 </associations>
 </Column>
+<Column name="Racecar_racecar_id" id="98D74CF6-3728-5BF8-7EEA-852CD8494CC0">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-11-14 13:57:40 UTC</createdTime>
+<generatorID>63EAA19B-BBF8-0F76-F9B1-D01C36F8B7AC</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5146C39A-233F-6396-F21A-9450439AE00B" referredColumn="CAC64B11-F955-5A7C-12E6-20E12741AFB3"/>
+</associations>
+</Column>
+<Column name="racecar_id1" id="AE76A7FB-039F-8E2C-3FF4-49E1333095C3">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-11-14 14:59:36 UTC</createdTime>
+<generatorID>7611D00B-4269-5E19-B71D-D324B370DECD</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="ABE2D8B3-D981-AE1C-E72E-5CAE199704BD" name="Qualifying_results_PK">
@@ -97,7 +124,7 @@
 <colUsage columnID="A8FE9B81-B61A-06B0-8ABB-07DB3F8CEE96"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6F4B52BE-CE42-2F96-278C-C53389B50395" name="Qualifying_results_Qualifying_FK">
+<ind_PK_UK id="6F4B52BE-CE42-2F96-278C-C53389B50395" name="Q_results_Qualifying_FK">
 <createdBy>haras</createdBy>
 <createdTime>2018-11-12 17:56:28 UTC</createdTime>
 <generatorID>1D001B4F-E424-E471-7051-99010EF35347</generatorID>
@@ -126,6 +153,9 @@
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98D74CF6-3728-5BF8-7EEA-852CD8494CC0"/>
+</indexColumnUsage>
 </ind_PK_UK>
 </indexes>
 </Table>

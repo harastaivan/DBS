@@ -4,7 +4,7 @@
 <createdTime>2018-11-07 07:20:24 UTC</createdTime>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
 <engineerTo>
-<item key="1B8632C1-662A-1051-B5F6-ABE2B3EC7A63" value="true"/>
+<item key="96FA102A-F7F3-FF04-D92E-F1DD00D7623F" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -14,13 +14,15 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<completeSubtypes>true</completeSubtypes>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="session_id" id="23F3BAFF-F248-B680-951D-282E6F2415A5">
 <createdBy>harasiva</createdBy>
 <createdTime>2018-11-07 07:20:30 UTC</createdTime>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
 <engineerTo>
-<item key="1B8632C1-662A-1051-B5F6-ABE2B3EC7A63" value="true"/>
+<item key="96FA102A-F7F3-FF04-D92E-F1DD00D7623F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +34,7 @@
 <createdTime>2018-11-07 07:20:45 UTC</createdTime>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
 <engineerTo>
-<item key="1B8632C1-662A-1051-B5F6-ABE2B3EC7A63" value="true"/>
+<item key="96FA102A-F7F3-FF04-D92E-F1DD00D7623F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +47,7 @@
 <createdTime>2018-11-07 07:21:44 UTC</createdTime>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
 <engineerTo>
-<item key="1B8632C1-662A-1051-B5F6-ABE2B3EC7A63" value="true"/>
+<item key="96FA102A-F7F3-FF04-D92E-F1DD00D7623F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -57,7 +59,7 @@
 <createdTime>2018-11-07 07:22:01 UTC</createdTime>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
 <engineerTo>
-<item key="1B8632C1-662A-1051-B5F6-ABE2B3EC7A63" value="true"/>
+<item key="96FA102A-F7F3-FF04-D92E-F1DD00D7623F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -70,7 +72,7 @@
 <generatorID>4A1CBB56-472F-E1E0-B694-2F330583283B</generatorID>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
 <engineerTo>
-<item key="1B8632C1-662A-1051-B5F6-ABE2B3EC7A63" value="true"/>
+<item key="96FA102A-F7F3-FF04-D92E-F1DD00D7623F" value="true"/>
 </engineerTo>
 <referedAttribute>5E3AB018-086A-E519-76D9-990586278E51</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -84,8 +86,9 @@
 <createdBy>harasiva</createdBy>
 <createdTime>2018-11-07 07:20:36 UTC</createdTime>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="1B8632C1-662A-1051-B5F6-ABE2B3EC7A63" value="true"/>
+<item key="96FA102A-F7F3-FF04-D92E-F1DD00D7623F" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

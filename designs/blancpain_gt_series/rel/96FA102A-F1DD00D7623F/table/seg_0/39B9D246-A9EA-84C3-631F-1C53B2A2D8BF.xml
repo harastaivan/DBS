@@ -68,6 +68,23 @@
 <colAssociation fkAssociation="9B9AF735-A112-615E-7ADA-0F558FB381C1" referredColumn="66978E2F-0A41-6CB7-F2CD-FB21437A8B6E"/>
 </associations>
 </Column>
+<Column name="Session_TYPE" id="47AACBFD-D16E-E4B7-DCC7-0F4297929C1B">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-11-14 14:58:04 UTC</createdTime>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<constraintName>CH_INH_Session</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<listOfValues>
+<valueDef value="Qualifying" description="entity Qualifying"/>
+<valueDef value="Race" description="entity Race"/>
+</listOfValues>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="9801568F-7693-9FD2-7432-DDC3DF37EF1F" name="Session_PK">

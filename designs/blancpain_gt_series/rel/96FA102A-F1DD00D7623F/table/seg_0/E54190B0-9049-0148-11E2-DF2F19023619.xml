@@ -13,7 +13,9 @@
 <createdTime>2018-11-12 17:56:28 UTC</createdTime>
 <generatorID>199BAAFD-D1E9-9846-B357-B63C341ACD8D</generatorID>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
