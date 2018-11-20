@@ -4,7 +4,7 @@
 <createdTime>2018-11-20 14:50:02 UTC</createdTime>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
 <engineerTo>
-<item key="96FA102A-F7F3-FF04-D92E-F1DD00D7623F" value="true"/>
+<item key="D408453D-4BC9-6C18-2256-62093C7EF6D2" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2018-11-20 14:50:46 UTC</createdTime>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
 <engineerTo>
-<item key="96FA102A-F7F3-FF04-D92E-F1DD00D7623F" value="true"/>
+<item key="D408453D-4BC9-6C18-2256-62093C7EF6D2" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +33,7 @@
 <generatorID>2FAD9C2D-C5FA-1D5C-74F3-FDB08B3D20AA</generatorID>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
 <engineerTo>
-<item key="96FA102A-F7F3-FF04-D92E-F1DD00D7623F" value="true"/>
+<item key="D408453D-4BC9-6C18-2256-62093C7EF6D2" value="true"/>
 </engineerTo>
 <referedAttribute>727382E0-D928-BA7E-9957-A2CBC82F6F3F</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -47,7 +47,7 @@
 <generatorID>4D4E4DA1-FCC6-A032-5F46-A0CF3005EFFB</generatorID>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
 <engineerTo>
-<item key="96FA102A-F7F3-FF04-D92E-F1DD00D7623F" value="true"/>
+<item key="D408453D-4BC9-6C18-2256-62093C7EF6D2" value="true"/>
 </engineerTo>
 <referedAttribute>EBEF7CA0-B61B-A18B-DB79-B7E543A1A934</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -61,8 +61,9 @@
 <createdBy>ivanharasta</createdBy>
 <createdTime>2018-11-20 14:50:58 UTC</createdTime>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="96FA102A-F7F3-FF04-D92E-F1DD00D7623F" value="true"/>
+<item key="D408453D-4BC9-6C18-2256-62093C7EF6D2" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

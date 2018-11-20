@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EEDA23B8-5645-641C-257C-B0794029331E" name="Circuit_sponsor">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-20 20:18:23 UTC</createdTime>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Sponsor_sponsor_id" id="5B0D4E4E-3DB3-0EB7-A3E5-58DFF233B958">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-20 20:18:23 UTC</createdTime>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A3E7532-D6F7-E5BD-80A4-02A984CD2DDB" referredColumn="78EC3DC5-6FFB-BD81-F22E-280ADFFFD112"/>
+</associations>
+</Column>
+<Column name="Circuit_circuit_id" id="52756984-F96A-BE3F-33AB-B60DD86262CA">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-20 20:18:23 UTC</createdTime>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC645CD9-97A4-6E91-77CC-3480FDBD456B" referredColumn="D4817C7E-73A5-42C4-2985-D33CEBC1976A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9033CD43-9489-450A-2160-127E87353992" name="Relation_11_PK">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-20 20:18:23 UTC</createdTime>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B0D4E4E-3DB3-0EB7-A3E5-58DFF233B958"/>
+<colUsage columnID="52756984-F96A-BE3F-33AB-B60DD86262CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CB9F5BC-2A27-A187-1D5A-74231D0BCEF9" name="Relation_11_Sponsor_FK">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-20 20:18:23 UTC</createdTime>
+<generatorID>2D479DDB-DF3F-84BA-446B-2A288EBF12F7</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B0D4E4E-3DB3-0EB7-A3E5-58DFF233B958"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C6B90C4-F483-9F44-C059-B177E7AB6319" name="Relation_11_Circuit_FK">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-20 20:18:23 UTC</createdTime>
+<generatorID>2D479DDB-DF3F-84BA-446B-2A288EBF12F7</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52756984-F96A-BE3F-33AB-B60DD86262CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

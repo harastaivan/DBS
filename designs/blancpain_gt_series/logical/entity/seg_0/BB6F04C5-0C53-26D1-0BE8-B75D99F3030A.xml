@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E257AF62-98DA-6173-6933-8AF51093B698" name="Team">
-<createdBy>harasiva</createdBy>
-<createdTime>2018-11-07 06:46:45 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB6F04C5-0C53-26D1-0BE8-B75D99F3030A" name="Sponsor">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-20 19:50:51 UTC</createdTime>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
 <engineerTo>
 <item key="D408453D-4BC9-6C18-2256-62093C7EF6D2" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="team_id" id="A1E2DFE6-2386-F175-513E-2A130D92DA7A">
-<createdBy>harasiva</createdBy>
-<createdTime>2018-11-07 06:46:53 UTC</createdTime>
+<Attribute name="sponsor_id" id="6D3FFFC2-F2CA-0C1B-975D-E697BE098239">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-20 19:51:10 UTC</createdTime>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
 <engineerTo>
 <item key="D408453D-4BC9-6C18-2256-62093C7EF6D2" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="name" id="60BFA2CD-8CB5-7299-505A-4F1F8D27DE9B">
-<createdBy>harasiva</createdBy>
-<createdTime>2018-11-07 06:47:10 UTC</createdTime>
+<Attribute name="name" id="F5EC8875-FAF2-2412-5368-850CA8C269E5">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-20 19:51:32 UTC</createdTime>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
 <engineerTo>
 <item key="D408453D-4BC9-6C18-2256-62093C7EF6D2" value="true"/>
@@ -40,21 +40,9 @@
 <dataTypeSize>200 CHAR</dataTypeSize>
 <ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="foundation_date" id="7B45F09D-EB56-BBEA-2E82-DF0ED9DDEAFD">
-<createdBy>harasiva</createdBy>
-<createdTime>2018-11-07 06:49:15 UTC</createdTime>
-<ownerDesignName>blancpain_gt_series</ownerDesignName>
-<engineerTo>
-<item key="D408453D-4BC9-6C18-2256-62093C7EF6D2" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="website_url" id="6902DB43-C15F-8F7D-A6F5-363184D57512">
-<createdBy>harasiva</createdBy>
-<createdTime>2018-11-07 06:50:50 UTC</createdTime>
+<Attribute name="website" id="0D4BCA79-13CF-87C6-F94B-088C05A07A15">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-20 19:51:53 UTC</createdTime>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
 <engineerTo>
 <item key="D408453D-4BC9-6C18-2256-62093C7EF6D2" value="true"/>
@@ -68,9 +56,9 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="8B41C6B5-B5C2-076E-33CA-DE77AE9B02D2" name="Team PK">
-<createdBy>harasiva</createdBy>
-<createdTime>2018-11-07 06:47:04 UTC</createdTime>
+<identifier id="27E6E1BB-5EB7-0665-6709-CBD1AB133EEC" name="Sponsor PK">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-20 19:51:28 UTC</createdTime>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
@@ -78,7 +66,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>A1E2DFE6-2386-F175-513E-2A130D92DA7A</attributeRef>
+<attributeRef>6D3FFFC2-F2CA-0C1B-975D-E697BE098239</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
