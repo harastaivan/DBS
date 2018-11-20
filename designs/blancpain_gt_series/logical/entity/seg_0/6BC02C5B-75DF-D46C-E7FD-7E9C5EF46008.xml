@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6BC02C5B-75DF-D46C-E7FD-7E9C5EF46008" name="Driver_group">
+<createdBy>ivanharasta</createdBy>
+<createdTime>2018-11-20 14:50:02 UTC</createdTime>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<engineerTo>
+<item key="96FA102A-F7F3-FF04-D92E-F1DD00D7623F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="driver_group_id" id="A2FE9D86-58E3-2238-DFC2-45A6BAA4E95A">
+<createdBy>ivanharasta</createdBy>
+<createdTime>2018-11-20 14:50:46 UTC</createdTime>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<engineerTo>
+<item key="96FA102A-F7F3-FF04-D92E-F1DD00D7623F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="driver_id" id="8B88B777-ED18-BCBA-9915-17F27A53302D">
+<createdBy>ivanharasta</createdBy>
+<createdTime>2018-11-20 14:50:28 UTC</createdTime>
+<generatorID>2FAD9C2D-C5FA-1D5C-74F3-FDB08B3D20AA</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<engineerTo>
+<item key="96FA102A-F7F3-FF04-D92E-F1DD00D7623F" value="true"/>
+</engineerTo>
+<referedAttribute>727382E0-D928-BA7E-9957-A2CBC82F6F3F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="results_id" id="7AC4EB73-AA83-98C1-4D57-8F690D68F605">
+<createdBy>ivanharasta</createdBy>
+<createdTime>2018-11-20 14:50:34 UTC</createdTime>
+<generatorID>4D4E4DA1-FCC6-A032-5F46-A0CF3005EFFB</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<engineerTo>
+<item key="96FA102A-F7F3-FF04-D92E-F1DD00D7623F" value="true"/>
+</engineerTo>
+<referedAttribute>EBEF7CA0-B61B-A18B-DB79-B7E543A1A934</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="44070EB7-2564-6C69-04AC-E1B31922E546" name="Driver_group PK">
+<createdBy>ivanharasta</createdBy>
+<createdTime>2018-11-20 14:50:58 UTC</createdTime>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<engineerTo>
+<item key="96FA102A-F7F3-FF04-D92E-F1DD00D7623F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A2FE9D86-58E3-2238-DFC2-45A6BAA4E95A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
