@@ -118,6 +118,19 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="incident_count" id="F5B81B10-F803-5AB8-3DE0-9617784F6C1D">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-20 20:45:58 UTC</createdTime>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<engineerTo>
+<item key="D408453D-4BC9-6C18-2256-62093C7EF6D2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="0DFE1A38-1CCB-9F2F-4160-02CB9EE06236" name="Registration PK">

@@ -107,6 +107,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="incident_count" id="C0B81E9B-8874-B269-0D7F-246A0A04B0EA">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-20 20:46:22 UTC</createdTime>
+<generatorID>F5B81B10-F803-5AB8-3DE0-9617784F6C1D</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="AD3AB0FE-849F-7A4C-681C-198FE6FD3709" name="Results_PK">
