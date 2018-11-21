@@ -27,29 +27,15 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="driver_id" id="8B88B777-ED18-BCBA-9915-17F27A53302D">
-<createdBy>ivanharasta</createdBy>
-<createdTime>2018-11-20 14:50:28 UTC</createdTime>
-<generatorID>2FAD9C2D-C5FA-1D5C-74F3-FDB08B3D20AA</generatorID>
+<Attribute name="racecar_id" id="787CFE82-93D1-814C-B0C3-F4992C4FA870">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-11-21 07:03:19 UTC</createdTime>
+<generatorID>7BB62000-2417-65A0-B583-29313137722E</generatorID>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
 <engineerTo>
 <item key="D408453D-4BC9-6C18-2256-62093C7EF6D2" value="true"/>
 </engineerTo>
-<referedAttribute>727382E0-D928-BA7E-9957-A2CBC82F6F3F</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="results_id" id="7AC4EB73-AA83-98C1-4D57-8F690D68F605">
-<createdBy>ivanharasta</createdBy>
-<createdTime>2018-11-20 14:50:34 UTC</createdTime>
-<generatorID>4D4E4DA1-FCC6-A032-5F46-A0CF3005EFFB</generatorID>
-<ownerDesignName>blancpain_gt_series</ownerDesignName>
-<engineerTo>
-<item key="D408453D-4BC9-6C18-2256-62093C7EF6D2" value="true"/>
-</engineerTo>
-<referedAttribute>EBEF7CA0-B61B-A18B-DB79-B7E543A1A934</referedAttribute>
+<referedAttribute>91753656-091A-5BA6-51A0-D4C8404A98D0</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

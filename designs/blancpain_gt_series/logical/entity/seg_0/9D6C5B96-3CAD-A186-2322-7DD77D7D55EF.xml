@@ -53,20 +53,6 @@
 <dataTypeSize>200 CHAR</dataTypeSize>
 <ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="team_id" id="945C311E-BB91-B352-AFE3-06B65D298B24">
-<createdBy>haras</createdBy>
-<createdTime>2018-11-20 19:47:56 UTC</createdTime>
-<generatorID>6EE76DEA-DD19-A84E-684C-0DE80B13E3AE</generatorID>
-<ownerDesignName>blancpain_gt_series</ownerDesignName>
-<engineerTo>
-<item key="D408453D-4BC9-6C18-2256-62093C7EF6D2" value="true"/>
-</engineerTo>
-<referedAttribute>A1E2DFE6-2386-F175-513E-2A130D92DA7A</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="E14BE887-8325-E3F0-7EF2-A5D8DD70B995" name="Mechanic PK">

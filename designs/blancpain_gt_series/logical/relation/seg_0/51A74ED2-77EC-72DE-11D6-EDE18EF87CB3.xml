@@ -1,21 +1,20 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Race_registration" directorySegmentName="seg_0" id="F2F7A572-0B22-FE84-A570-E888A67FB876">
-<createdBy>ivanharasta</createdBy>
-<createdTime>2018-11-20 14:33:51 UTC</createdTime>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_17" directorySegmentName="seg_0" id="51A74ED2-77EC-72DE-11D6-EDE18EF87CB3">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-11-21 07:20:58 UTC</createdTime>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
 <engineerTo>
 <item key="D408453D-4BC9-6C18-2256-62093C7EF6D2" value="true"/>
 </engineerTo>
 <sourcePk>FEFDA260-C700-824B-2969-E081B068BB92</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>resulted in</nameOnSource>
-<nameOnTarget>results of</nameOnTarget>
+<nameOnTarget>in race</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>07B39754-ADB8-1274-3A92-F0A26B99C2E3</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>1242C64D-B469-A2CA-D098-6CF8F5502364</targetEntity>
+<targetEntity>DBD173F6-DC24-0B77-9A4F-D1300EACB250</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

@@ -15,46 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="results_id" id="EBEF7CA0-B61B-A18B-DB79-B7E543A1A934">
-<createdBy>ivanharasta</createdBy>
-<createdTime>2018-11-20 14:28:45 UTC</createdTime>
-<ownerDesignName>blancpain_gt_series</ownerDesignName>
-<engineerTo>
-<item key="D408453D-4BC9-6C18-2256-62093C7EF6D2" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="session_id" id="29BFD42D-AD55-8632-5692-72ECEBC12057">
-<createdBy>ivanharasta</createdBy>
-<createdTime>2018-11-20 14:33:38 UTC</createdTime>
-<generatorID>FA2F9AC8-1A4D-8284-63F7-50150C2A193C</generatorID>
-<ownerDesignName>blancpain_gt_series</ownerDesignName>
-<engineerTo>
-<item key="D408453D-4BC9-6C18-2256-62093C7EF6D2" value="true"/>
-</engineerTo>
-<referedAttribute>23F3BAFF-F248-B680-951D-282E6F2415A5</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="session_id1" id="67786E29-F0DD-AD1D-5608-0827F9B0FFE5">
-<createdBy>ivanharasta</createdBy>
-<createdTime>2018-11-20 14:33:51 UTC</createdTime>
-<generatorID>F2F7A572-0B22-FE84-A570-E888A67FB876</generatorID>
-<ownerDesignName>blancpain_gt_series</ownerDesignName>
-<engineerTo>
-<item key="D408453D-4BC9-6C18-2256-62093C7EF6D2" value="true"/>
-</engineerTo>
-<referedAttribute>23F3BAFF-F248-B680-951D-282E6F2415A5</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="best_qualifying_laptime" id="52809183-ED45-A2D9-12FA-C7342670BE91">
 <createdBy>ivanharasta</createdBy>
 <createdTime>2018-11-20 14:52:10 UTC</createdTime>
@@ -131,6 +91,20 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="participation_id" id="AF8BB0B7-70CD-CC2D-30C7-706756C41333">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-11-21 07:51:37 UTC</createdTime>
+<generatorID>13771E7C-E81E-3BD1-1F63-0C0D1A43CAE5</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<engineerTo>
+<item key="D408453D-4BC9-6C18-2256-62093C7EF6D2" value="true"/>
+</engineerTo>
+<referedAttribute>B1AEF6DC-832D-D5EE-6A78-9CA300343E03</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="0DFE1A38-1CCB-9F2F-4160-02CB9EE06236" name="Registration PK">
@@ -143,7 +117,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>EBEF7CA0-B61B-A18B-DB79-B7E543A1A934</attributeRef>
+<attributeRef>AF8BB0B7-70CD-CC2D-30C7-706756C41333</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

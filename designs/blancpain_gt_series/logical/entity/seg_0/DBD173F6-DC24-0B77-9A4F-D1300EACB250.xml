@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DBD173F6-DC24-0B77-9A4F-D1300EACB250" name="Participation">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-11-21 07:17:19 UTC</createdTime>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<engineerTo>
+<item key="D408453D-4BC9-6C18-2256-62093C7EF6D2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="participation_id" id="B1AEF6DC-832D-D5EE-6A78-9CA300343E03">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-11-21 07:51:28 UTC</createdTime>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<engineerTo>
+<item key="D408453D-4BC9-6C18-2256-62093C7EF6D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="driver_group_id" id="01F261C5-F2FC-0EC0-AF76-3592CBA9EA88">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-11-21 07:18:05 UTC</createdTime>
+<generatorID>84515B5F-ED37-03CB-4854-12D28EB13853</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<engineerTo>
+<item key="D408453D-4BC9-6C18-2256-62093C7EF6D2" value="true"/>
+</engineerTo>
+<referedAttribute>A2FE9D86-58E3-2238-DFC2-45A6BAA4E95A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="session_id" id="15AB7617-D834-AE7C-D3DC-D6EB5D69E48D">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-11-21 07:20:49 UTC</createdTime>
+<generatorID>F926942F-134F-516D-A1D9-9FBFE26C2CF1</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<engineerTo>
+<item key="D408453D-4BC9-6C18-2256-62093C7EF6D2" value="true"/>
+</engineerTo>
+<referedAttribute>23F3BAFF-F248-B680-951D-282E6F2415A5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="session_id1" id="A2DC5CE8-6ACE-A533-B24C-31CD31FECE5A">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-11-21 07:20:58 UTC</createdTime>
+<generatorID>51A74ED2-77EC-72DE-11D6-EDE18EF87CB3</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<engineerTo>
+<item key="D408453D-4BC9-6C18-2256-62093C7EF6D2" value="true"/>
+</engineerTo>
+<referedAttribute>23F3BAFF-F248-B680-951D-282E6F2415A5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="registration_date" id="C9864B6B-820D-6A70-3B0C-45591F6586EE">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-11-21 07:33:20 UTC</createdTime>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<engineerTo>
+<item key="D408453D-4BC9-6C18-2256-62093C7EF6D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9FF4B7CA-0034-0862-FE87-4498EB90DB33" name="Participation PK">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-11-21 07:51:35 UTC</createdTime>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<engineerTo>
+<item key="D408453D-4BC9-6C18-2256-62093C7EF6D2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B1AEF6DC-832D-D5EE-6A78-9CA300343E03</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
