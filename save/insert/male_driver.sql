@@ -38,7 +38,7 @@ insert into driver (driver_id, first_name, last_name, birth_date, gender, nation
 insert into driver (driver_id, first_name, last_name, birth_date, gender, nationality, website_url) values (38, 'Ruby', 'Cowen', '12/5/1988', 'male', 'RU', null);
 insert into driver (driver_id, first_name, last_name, birth_date, gender, nationality, website_url) values (39, 'Ban', 'Henniger', '6/8/1983', 'male', 'MX', null);
 insert into driver (driver_id, first_name, last_name, birth_date, gender, nationality, website_url) values (40, 'Monty', 'Tupie', '9/26/1981', 'male', 'SE', null);
-insert into driver (driver_id, first_name, last_name, birth_date, gender, nationality, website_url) values (41, 'Mahmud', 'Bruinemann', '11/2/1995', 'male', 'PH'bruinemann-racing.com');
+insert into driver (driver_id, first_name, last_name, birth_date, gender, nationality, website_url) values (41, 'Mahmud', 'Bruinemann', '11/2/1995', 'male', 'PH', 'bruinemann-racing.com');
 insert into driver (driver_id, first_name, last_name, birth_date, gender, nationality, website_url) values (42, 'Saunderson', 'Crummey', '5/30/1978', 'male', 'ID', null);
 insert into driver (driver_id, first_name, last_name, birth_date, gender, nationality, website_url) values (43, 'Derby', 'Hrihorovich', '12/11/1990', 'male', 'BR', null);
 insert into driver (driver_id, first_name, last_name, birth_date, gender, nationality, website_url) values (44, 'Swen', 'Peter', '2/23/1985', 'male', 'ZW', null);
