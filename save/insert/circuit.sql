@@ -1,0 +1,10 @@
+insert into circuit (circuit_id, name, country, corners, length, car_capacity, viewers_capacity) values (1, 'Zolder', 'BE', 10, 4011, 26, 8010);
+insert into circuit (circuit_id, name, country, corners, length, car_capacity, viewers_capacity) values (2, 'Monza', 'IT', 9, 5793, 40, 3440);
+insert into circuit (circuit_id, name, country, corners, length, car_capacity, viewers_capacity) values (3, 'Brands Hatch', 'GB', 7, 4207, 36, 15474);
+insert into circuit (circuit_id, name, country, corners, length, car_capacity, viewers_capacity) values (4, 'Silverstone', 'GB', 20, 5891, 38, 14533);
+insert into circuit (circuit_id, name, country, corners, length, car_capacity, viewers_capacity) values (5, 'Paul Ricard', 'FR', 10, 3813, 35, 13401);
+insert into circuit (circuit_id, name, country, corners, length, car_capacity, viewers_capacity) values (6, 'Misano', 'IT', 16, 4226, 31, 3671);
+insert into circuit (circuit_id, name, country, corners, length, car_capacity, viewers_capacity) values (7, 'Spa', 'BE', 20, 7004, 32, 16098);
+insert into circuit (circuit_id, name, country, corners, length, car_capacity, viewers_capacity) values (8, 'Hungaroring', 'HU', 16, 4381, 31, 18365);
+insert into circuit (circuit_id, name, country, corners, length, car_capacity, viewers_capacity) values (9, 'Nurburgring', 'GE', 14, 5148, 39, 13587);
+insert into circuit (circuit_id, name, country, corners, length, car_capacity, viewers_capacity) values (10, 'Barcelona', 'ES', 16, 4655, 35, 10329);
