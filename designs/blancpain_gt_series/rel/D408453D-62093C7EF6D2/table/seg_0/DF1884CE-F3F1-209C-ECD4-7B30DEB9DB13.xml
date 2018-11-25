@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF1884CE-F3F1-209C-ECD4-7B30DEB9DB13" name="Qualifying">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-20 20:18:23 UTC</createdTime>
+<generatorID>A4A39890-C0EB-A13F-33EB-7F51CE94E3F0</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="session_id" id="7787EC85-3E39-2901-E4F2-3AAAB801E5B6">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-20 20:18:23 UTC</createdTime>
+<generatorID>23F3BAFF-F248-B680-951D-282E6F2415A5</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E88F0EF-FFC0-CD12-6721-2351A6CDF6D2" referredColumn="AB9C4783-6A2E-064E-295D-F61FD0CD4633"/>
+</associations>
+</Column>
+<Column name="true_duration" id="B1434FF3-D360-24EC-DF07-5AB28681A66F">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-20 20:18:23 UTC</createdTime>
+<generatorID>1F3F7A25-8AE7-DA14-EC34-3C458E090BC3</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D62CCB0-03CE-7983-4C5E-D08EF3889D66" name="Qualifying_PK">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-20 20:18:23 UTC</createdTime>
+<generatorID>FEFDA260-C700-824B-2969-E081B068BB92</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7787EC85-3E39-2901-E4F2-3AAAB801E5B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E25894A3-5775-5B29-E09F-184CC5487590" name="Qualifying_Session_FK">
+<createdBy>haras</createdBy>
+<createdTime>2018-11-20 20:18:23 UTC</createdTime>
+<generatorID>AE5EFA74-D8F8-3E5C-958A-18493E14BC56</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7787EC85-3E39-2901-E4F2-3AAAB801E5B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

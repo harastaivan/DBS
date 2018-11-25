@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_15" directorySegmentName="seg_0" id="84515B5F-ED37-03CB-4854-12D28EB13853">
+<createdBy>harasiva</createdBy>
+<createdTime>2018-11-21 07:18:05 UTC</createdTime>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<engineerTo>
+<item key="D408453D-4BC9-6C18-2256-62093C7EF6D2" value="true"/>
+</engineerTo>
+<sourcePk>44070EB7-2564-6C69-04AC-E1B31922E546</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>participates</nameOnSource>
+<nameOnTarget>of specific drivers group in race weekend</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6BC02C5B-75DF-D46C-E7FD-7E9C5EF46008</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DBD173F6-DC24-0B77-9A4F-D1300EACB250</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
