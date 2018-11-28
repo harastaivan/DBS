@@ -1,0 +1,16 @@
+drop table TEAM cascade constraints PURGE;
+drop table "Session" cascade constraints PURGE;
+drop table SPONSOR cascade constraints PURGE;
+drop table RESULTS cascade constraints PURGE;
+drop table RACECAR cascade constraints PURGE;
+drop table RACE cascade constraints PURGE;
+drop table QUALIFYING cascade constraints PURGE;
+drop table PARTICIPATION cascade constraints PURGE;
+drop table MECHANIC_RACECAR cascade constraints PURGE;
+drop table MECHANIC cascade constraints PURGE;
+drop table DRIVER_SPONSOR cascade constraints PURGE;
+drop table DRIVER_GROUP cascade constraints PURGE;
+drop table DRIVER_DRIVER_GROUP cascade constraints PURGE;
+drop table DRIVER cascade constraints PURGE;
+drop table CIRCUIT_SPONSOR cascade constraints PURGE;
+drop table CIRCUIT cascade constraints PURGE;
