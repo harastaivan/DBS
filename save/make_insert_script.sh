@@ -9,3 +9,4 @@ cat insert/works/male_driver.sql >> blancpain_gt_series_working_insert_script.sq
 cat insert/works/female_driver.sql >> blancpain_gt_series_working_insert_script.sql
 cat insert/works/sponsor.sql >> blancpain_gt_series_working_insert_script.sql
 cat insert/works/circuit_sponsor.sql >> blancpain_gt_series_working_insert_script.sql
+cat insert/works/driver_sponsor.sql >> blancpain_gt_series_working_insert_script.sql
