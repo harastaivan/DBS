@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AF99D858-70BE-1383-1A86-D9CB78610829" containerWithKeyObject="294D71BD-0EC7-4039-99FF-0931090E2F25" localFKIndex="559EB9ED-42B1-9584-0218-E141DDF15878" name="Circuit_sponsor_Sponsor_FK">
+<createdBy>ivanharasta</createdBy>
+<createdTime>2018-11-28 10:34:45 UTC</createdTime>
+<generatorID>2D479DDB-DF3F-84BA-446B-2A288EBF12F7</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<referredTableLongName>Sponsor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5D8B4222-F1BD-2F35-9829-A0970BC3F4F8</referredTableID>
+<keyObject>B115C753-5FB9-B5E0-3A09-6B23C3121D31</keyObject>
+<referredKeyID>B115C753-5FB9-B5E0-3A09-6B23C3121D31</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sponsor_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="138F4F28-38BF-AC42-1A69-A6B0FD504588" name="Driver_sponsor">
+<createdBy>ivanharasta</createdBy>
+<createdTime>2018-11-28 10:34:45 UTC</createdTime>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Driver_driver_id" id="DFE53FCB-411C-2DE0-1A00-D4BEB1F0102B">
+<createdBy>ivanharasta</createdBy>
+<createdTime>2018-11-28 10:34:45 UTC</createdTime>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="546F8478-1312-FAB7-56DE-409A2224F161" referredColumn="B161C288-BD42-8DA4-4B77-AE42D549B6E4"/>
+</associations>
+</Column>
+<Column name="Sponsor_sponsor_id" id="CD2B2322-386A-0812-DABF-7A6909554340">
+<createdBy>ivanharasta</createdBy>
+<createdTime>2018-11-28 10:34:45 UTC</createdTime>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7AF3C33E-56F4-2F10-96C7-7285359296F1" referredColumn="C247D169-2139-AF22-B9AC-B7447061B2B2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E04C2878-4732-D818-8C14-5F27B2B3F99F" name="Driver_sponsor_PK">
+<createdBy>ivanharasta</createdBy>
+<createdTime>2018-11-28 10:34:45 UTC</createdTime>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFE53FCB-411C-2DE0-1A00-D4BEB1F0102B"/>
+<colUsage columnID="CD2B2322-386A-0812-DABF-7A6909554340"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="869CBACB-2A67-EEAF-0105-03E019026A98" name="Driver_sponsor_Driver_FK">
+<createdBy>ivanharasta</createdBy>
+<createdTime>2018-11-28 10:34:45 UTC</createdTime>
+<generatorID>2F0CFD6F-1D0A-997B-5D9C-79B7975A1318</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFE53FCB-411C-2DE0-1A00-D4BEB1F0102B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2988176A-19CA-4666-EAF0-B1B1215EA98F" name="Driver_sponsor_Sponsor_FK">
+<createdBy>ivanharasta</createdBy>
+<createdTime>2018-11-28 10:34:45 UTC</createdTime>
+<generatorID>2F0CFD6F-1D0A-997B-5D9C-79B7975A1318</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD2B2322-386A-0812-DABF-7A6909554340"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

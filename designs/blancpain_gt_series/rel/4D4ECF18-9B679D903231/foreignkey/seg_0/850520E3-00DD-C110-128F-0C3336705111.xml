@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="850520E3-00DD-C110-128F-0C3336705111" containerWithKeyObject="4D0DE4F8-316D-7802-9793-B2B82EF4B36D" localFKIndex="525F6E3D-F54E-1FF5-A9CC-0FDD565926A8" name="Race_Session_FK">
+<createdBy>ivanharasta</createdBy>
+<createdTime>2018-11-28 10:34:45 UTC</createdTime>
+<generatorID>CEC824D1-C934-E3F1-EC59-45120A24BC43</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<referredTableLongName>Session</referredTableLongName>
+<arc>A0F95062-62D4-7E28-80A8-47681E1D458E</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F36FC4C1-EBE0-B56B-05D3-331576FD2CDA</referredTableID>
+<keyObject>79692C38-2192-3244-5270-3E01B539F9F4</keyObject>
+<referredKeyID>79692C38-2192-3244-5270-3E01B539F9F4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>session_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Race</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

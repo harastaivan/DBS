@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DD64A5DA-19FC-6DD7-28F9-8BB81C4218C5" containerWithKeyObject="4D19BD3D-1F86-DE73-D6C0-C9505BFB0F16" localFKIndex="38CD75E6-4183-E854-D449-18B3A10993ED" name="Qualifying_Session_FK">
+<createdBy>ivanharasta</createdBy>
+<createdTime>2018-11-28 10:34:45 UTC</createdTime>
+<generatorID>AE5EFA74-D8F8-3E5C-958A-18493E14BC56</generatorID>
+<ownerDesignName>blancpain_gt_series</ownerDesignName>
+<referredTableLongName>Session</referredTableLongName>
+<arc>A0F95062-62D4-7E28-80A8-47681E1D458E</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F36FC4C1-EBE0-B56B-05D3-331576FD2CDA</referredTableID>
+<keyObject>79692C38-2192-3244-5270-3E01B539F9F4</keyObject>
+<referredKeyID>79692C38-2192-3244-5270-3E01B539F9F4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>session_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Qualifying</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
