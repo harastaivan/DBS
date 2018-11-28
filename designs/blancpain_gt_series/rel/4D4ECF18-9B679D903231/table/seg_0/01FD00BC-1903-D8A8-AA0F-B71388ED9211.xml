@@ -60,7 +60,7 @@
 <colUsage columnID="E3C4443D-24EA-C94D-11C2-D7CD20CF6472"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D2B44642-138C-8411-65E2-6EF56FEF948B" name="Driver_driver_group_Driver_group_FK">
+<ind_PK_UK id="D2B44642-138C-8411-65E2-6EF56FEF948B" name="Driver_driver_group_dg_FK">
 <createdBy>ivanharasta</createdBy>
 <createdTime>2018-11-28 10:34:45 UTC</createdTime>
 <generatorID>1ECFEBAA-CB5E-FF25-1C2C-4A1F9B96169F</generatorID>
