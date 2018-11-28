@@ -48,3 +48,4 @@ insert into team (team_id, foundation_date, name, website_url) values (47, '02.0
 insert into team (team_id, foundation_date, name, website_url) values (48, '11.08.1994', 'Roob-Watsica', null);
 insert into team (team_id, foundation_date, name, website_url) values (49, '15.11.1993', 'Gottlieb, Skiles and Zemlak', null);
 insert into team (team_id, foundation_date, name, website_url) values (50, '06.04.1991', 'O''Conner, Hagenes and Williamson', null);
+commit;
