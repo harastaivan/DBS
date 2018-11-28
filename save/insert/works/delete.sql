@@ -1,3 +1,4 @@
+delete from sponsor;
 delete from driver;
 delete from mechanic;
 delete from racecar;
