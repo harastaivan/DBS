@@ -198,3 +198,4 @@ insert into mechanic (mechanic_id, first_name, last_name) values (197, 'Gery', '
 insert into mechanic (mechanic_id, first_name, last_name) values (198, 'Cornell', 'Jesteco');
 insert into mechanic (mechanic_id, first_name, last_name) values (199, 'Mathias', 'Gobolos');
 insert into mechanic (mechanic_id, first_name, last_name) values (200, 'Windham', 'Schoenrock');
+commit;
