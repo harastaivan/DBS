@@ -1,3 +1,8 @@
+delete from DRIVER_SPONSOR;
+delete from SPONSOR;
+delete from DRIVER_DRIVER_GROUP;
+delete from DRIVER;
+delete from DRIVER_GROUP;
 delete from RACECAR;
 delete from CIRCUIT;
 delete from TEAM;
@@ -25,4 +30,38 @@ insert into RACECAR (racecar_id, manufacturer, type, full_name, "number", class,
 insert into RACECAR (racecar_id, manufacturer, type, full_name, "number", class, power, weight, fuel_tank, front_tyres, back_tyres, engine_layout, displacement, length, width, wheelbase, team_team_id) values (2, 'Lamborghini', 'Huracan GT3', 'Lamborghini Huracan GT3', 548, 'GT3', 600, 1237, 100, null, null, 'V10', null, null, null, null, 1);
 insert into RACECAR (racecar_id, manufacturer, type, full_name, "number", class, power, weight, fuel_tank, front_tyres, back_tyres, engine_layout, displacement, length, width, wheelbase, team_team_id) values (3, 'Aston Martin', 'Vantage V12 GT3', 'Aston Martin Vantage V12 GT3', 701, 'GT3', 550, 1265, 100, null, null, 'V12', null, null, null, null, 2);
 insert into RACECAR (racecar_id, manufacturer, type, full_name, "number", class, power, weight, fuel_tank, front_tyres, back_tyres, engine_layout, displacement, length, width, wheelbase, team_team_id) values (4, 'Audi', 'R8 LMS', 'Audi R8 LMS', 695, 'GT3', 568, 1235, 100, null, null, 'V10', null, null, null, null, 2);
+commit;
+
+-- Driver_group
+insert into DRIVER_GROUP (DRIVER_GROUP_ID, RACECAR_RACECAR_ID) values (1, 3);
+insert into DRIVER_GROUP (DRIVER_GROUP_ID, RACECAR_RACECAR_ID) values (2, 2);
+insert into DRIVER_GROUP (DRIVER_GROUP_ID, RACECAR_RACECAR_ID) values (3, 1);
+insert into DRIVER_GROUP (DRIVER_GROUP_ID, RACECAR_RACECAR_ID) values (4, 4);
+commit;
+
+-- Driver
+insert into DRIVER (driver_id, first_name, last_name, birth_date, gender, nationality, website_url) values (1, 'Nicki', 'Thiim', '17.04.1989', 0, 'DK', 'danskyjr.com');
+insert into DRIVER (driver_id, first_name, last_name, birth_date, gender, nationality, website_url) values (2, 'Rubens', 'Barrichello', '22.06.1980', 0, 'IT', 'barrichello.com');
+insert into DRIVER (driver_id, first_name, last_name, birth_date, gender, nationality, website_url) values (3, 'Rene', 'Rast', '11.03.1985', 0, 'DE', 'rast.com');
+insert into DRIVER (driver_id, first_name, last_name, birth_date, gender, nationality, website_url) values (4, 'Jake', 'Dennis', '11.04.1988', 0, 'GB', null);
+commit;
+
+-- Driver_driver_group
+insert into DRIVER_DRIVER_GROUP (DRIVER_DRIVER_ID, DRIVER_GROUP_DRIVER_GROUP_ID) VALUES (1, 1);
+insert into DRIVER_DRIVER_GROUP (DRIVER_DRIVER_ID, DRIVER_GROUP_DRIVER_GROUP_ID) VALUES (1, 2);
+insert into DRIVER_DRIVER_GROUP (DRIVER_DRIVER_ID, DRIVER_GROUP_DRIVER_GROUP_ID) VALUES (4, 2);
+insert into DRIVER_DRIVER_GROUP (DRIVER_DRIVER_ID, DRIVER_GROUP_DRIVER_GROUP_ID) VALUES (2, 3);
+insert into DRIVER_DRIVER_GROUP (DRIVER_DRIVER_ID, DRIVER_GROUP_DRIVER_GROUP_ID) VALUES (3, 4);
+commit;
+
+-- Sponsor
+insert into SPONSOR (SPONSOR_ID, NAME, WEBSITE) VALUES (1, 'Pirelli', 'pirelli.com');
+insert into SPONSOR (SPONSOR_ID, NAME, WEBSITE) VALUES (2, 'Blancpain', 'blancpain.com');
+commit;
+
+-- Driver_sponsor
+insert into DRIVER_SPONSOR (DRIVER_DRIVER_ID, SPONSOR_SPONSOR_ID) VALUES (2, 1);
+insert into DRIVER_SPONSOR (DRIVER_DRIVER_ID, SPONSOR_SPONSOR_ID) values (2, 2);
+insert into DRIVER_SPONSOR (DRIVER_DRIVER_ID, SPONSOR_SPONSOR_ID) values (3, 2);
+insert into DRIVER_SPONSOR (DRIVER_DRIVER_ID, SPONSOR_SPONSOR_ID) values (4, 1);
 commit;
