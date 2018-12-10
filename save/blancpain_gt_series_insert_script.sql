@@ -1,3 +1,6 @@
+delete from CIRCUIT_SPONSOR;
+delete from MECHANIC_RACECAR;
+delete from MECHANIC;
 delete from DRIVER_SPONSOR;
 delete from SPONSOR;
 delete from DRIVER_DRIVER_GROUP;
@@ -30,6 +33,7 @@ insert into RACECAR (racecar_id, manufacturer, type, full_name, "number", class,
 insert into RACECAR (racecar_id, manufacturer, type, full_name, "number", class, power, weight, fuel_tank, front_tyres, back_tyres, engine_layout, displacement, length, width, wheelbase, team_team_id) values (2, 'Lamborghini', 'Huracan GT3', 'Lamborghini Huracan GT3', 548, 'GT3', 600, 1237, 100, null, null, 'V10', null, null, null, null, 1);
 insert into RACECAR (racecar_id, manufacturer, type, full_name, "number", class, power, weight, fuel_tank, front_tyres, back_tyres, engine_layout, displacement, length, width, wheelbase, team_team_id) values (3, 'Aston Martin', 'Vantage V12 GT3', 'Aston Martin Vantage V12 GT3', 701, 'GT3', 550, 1265, 100, null, null, 'V12', null, null, null, null, 2);
 insert into RACECAR (racecar_id, manufacturer, type, full_name, "number", class, power, weight, fuel_tank, front_tyres, back_tyres, engine_layout, displacement, length, width, wheelbase, team_team_id) values (4, 'Audi', 'R8 LMS', 'Audi R8 LMS', 695, 'GT3', 568, 1235, 100, null, null, 'V10', null, null, null, null, 2);
+insert into RACECAR (racecar_id, manufacturer, type, full_name, "number", class, power, weight, fuel_tank, front_tyres, back_tyres, engine_layout, displacement, length, width, wheelbase, team_team_id) values (5, 'Audi', 'R8 LMS', 'Audi R8 LMS', 695, 'GT3', 568, 1235, 100, null, null, 'V10', null, null, null, null, 1);
 commit;
 
 -- Driver_group
@@ -64,4 +68,37 @@ insert into DRIVER_SPONSOR (DRIVER_DRIVER_ID, SPONSOR_SPONSOR_ID) VALUES (2, 1);
 insert into DRIVER_SPONSOR (DRIVER_DRIVER_ID, SPONSOR_SPONSOR_ID) values (2, 2);
 insert into DRIVER_SPONSOR (DRIVER_DRIVER_ID, SPONSOR_SPONSOR_ID) values (3, 2);
 insert into DRIVER_SPONSOR (DRIVER_DRIVER_ID, SPONSOR_SPONSOR_ID) values (4, 1);
+commit;
+
+-- Mechanic
+insert into MECHANIC (mechanic_id, first_name, last_name) values (1, 'Tucker', 'Minnock');
+insert into MECHANIC (mechanic_id, first_name, last_name) values (2, 'Jarrad', 'Kmieciak');
+insert into MECHANIC (mechanic_id, first_name, last_name) values (3, 'Siward', 'Reddish');
+insert into MECHANIC (mechanic_id, first_name, last_name) values (4, 'Tanny', 'McGonnell');
+insert into MECHANIC (mechanic_id, first_name, last_name) values (5, 'Barnie', 'Wybern');
+insert into MECHANIC (mechanic_id, first_name, last_name) values (6, 'Edvard', 'Tremmel');
+insert into MECHANIC (mechanic_id, first_name, last_name) values (7, 'Dionysus', 'Abthorpe');
+insert into MECHANIC (mechanic_id, first_name, last_name) values (8, 'Berkly', 'Blaksland');
+insert into MECHANIC (mechanic_id, first_name, last_name) values (9, 'Pincas', 'Upchurch');
+insert into MECHANIC (mechanic_id, first_name, last_name) values (10, 'Oswell', 'Whilde');
+commit;
+
+-- Mechanic_racecar
+insert into MECHANIC_RACECAR (RACECAR_RACECAR_ID, MECHANIC_MECHANIC_ID) VALUES (1, 1);
+insert into MECHANIC_RACECAR (RACECAR_RACECAR_ID, MECHANIC_MECHANIC_ID) VALUES (1, 2);
+insert into MECHANIC_RACECAR (RACECAR_RACECAR_ID, MECHANIC_MECHANIC_ID) VALUES (2, 3);
+insert into MECHANIC_RACECAR (RACECAR_RACECAR_ID, MECHANIC_MECHANIC_ID) VALUES (2, 4);
+insert into MECHANIC_RACECAR (RACECAR_RACECAR_ID, MECHANIC_MECHANIC_ID) VALUES (3, 5);
+insert into MECHANIC_RACECAR (RACECAR_RACECAR_ID, MECHANIC_MECHANIC_ID) VALUES (3, 6);
+insert into MECHANIC_RACECAR (RACECAR_RACECAR_ID, MECHANIC_MECHANIC_ID) VALUES (4, 7);
+insert into MECHANIC_RACECAR (RACECAR_RACECAR_ID, MECHANIC_MECHANIC_ID) VALUES (4, 8);
+commit;
+
+-- Circuit_sponsor
+insert into CIRCUIT_SPONSOR (SPONSOR_SPONSOR_ID, CIRCUIT_CIRCUIT_ID) VALUES (1, 2);
+insert into CIRCUIT_SPONSOR (SPONSOR_SPONSOR_ID, CIRCUIT_CIRCUIT_ID) VALUES (1, 3);
+insert into CIRCUIT_SPONSOR (SPONSOR_SPONSOR_ID, CIRCUIT_CIRCUIT_ID) VALUES (1, 4);
+insert into CIRCUIT_SPONSOR (SPONSOR_SPONSOR_ID, CIRCUIT_CIRCUIT_ID) VALUES (2, 1);
+insert into CIRCUIT_SPONSOR (SPONSOR_SPONSOR_ID, CIRCUIT_CIRCUIT_ID) VALUES (2, 5);
+insert into CIRCUIT_SPONSOR (SPONSOR_SPONSOR_ID, CIRCUIT_CIRCUIT_ID) VALUES (2, 6);
 commit;
