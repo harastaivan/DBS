@@ -1,3 +1,6 @@
+delete from RACE;
+delete from QUALIFYING;
+delete from "Session";
 delete from CIRCUIT_SPONSOR;
 delete from MECHANIC_RACECAR;
 delete from MECHANIC;
@@ -101,4 +104,17 @@ insert into CIRCUIT_SPONSOR (SPONSOR_SPONSOR_ID, CIRCUIT_CIRCUIT_ID) VALUES (1, 
 insert into CIRCUIT_SPONSOR (SPONSOR_SPONSOR_ID, CIRCUIT_CIRCUIT_ID) VALUES (2, 1);
 insert into CIRCUIT_SPONSOR (SPONSOR_SPONSOR_ID, CIRCUIT_CIRCUIT_ID) VALUES (2, 5);
 insert into CIRCUIT_SPONSOR (SPONSOR_SPONSOR_ID, CIRCUIT_CIRCUIT_ID) VALUES (2, 6);
+commit;
+
+-- Session
+insert into "Session" (SESSION_ID, NAME, BEGIN_DATE, END_DATE, CIRCUIT_CIRCUIT_ID, SESSION_TYPE) VALUES (1, 'Spa 24 Hour Qualifying', to_date('15.6.2017 14:00', 'dd.mm.yyyy HH24:mi'), to_date('15.6.2017 16:00', 'dd.mm.yyyy HH24:mi'), 7, 'Qualifying');
+insert into "Session" (SESSION_ID, NAME, BEGIN_DATE, END_DATE, CIRCUIT_CIRCUIT_ID, SESSION_TYPE) VALUES (2, 'Spa 24 Hour Main Race', to_date('16.6.2017 15:00', 'dd.mm.yyyy HH24:mi'), to_date('17.6.2017 15:00', 'dd.mm.yyyy HH24:mi'), 7, 'Race');
+commit;
+
+-- Qualifying
+insert into QUALIFYING (SESSION_ID, TRUE_DURATION) VALUES (1, 100);
+commit;
+
+-- Race
+insert into RACE (SESSION_ID, FORMATION_LAP, LAPS) VALUES (2, 1, 250);
 commit;
