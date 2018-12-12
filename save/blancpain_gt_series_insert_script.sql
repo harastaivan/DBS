@@ -2,7 +2,7 @@ delete from RESULTS;
 delete from PARTICIPATION;
 delete from RACE;
 delete from QUALIFYING;
-delete from "Session";
+delete from SESSION_TYPE;
 delete from CIRCUIT_SPONSOR;
 delete from MECHANIC_RACECAR;
 delete from MECHANIC;
@@ -134,10 +134,10 @@ insert into CIRCUIT_SPONSOR (SPONSOR_SPONSOR_ID, CIRCUIT_CIRCUIT_ID) VALUES (2, 
 commit;
 
 -- Session
-insert into "Session" (SESSION_ID, NAME, BEGIN_DATE, END_DATE, CIRCUIT_CIRCUIT_ID, SESSION_TYPE) VALUES (1, 'Spa 24 Hour Qualifying', to_date('15.6.2017 14:00', 'dd.mm.yyyy HH24:mi'), to_date('15.6.2017 16:00', 'dd.mm.yyyy HH24:mi'), 7, 'Qualifying');
-insert into "Session" (SESSION_ID, NAME, BEGIN_DATE, END_DATE, CIRCUIT_CIRCUIT_ID, SESSION_TYPE) VALUES (2, 'Spa 24 Hour Main Race', to_date('16.6.2017 15:00', 'dd.mm.yyyy HH24:mi'), to_date('17.6.2017 15:00', 'dd.mm.yyyy HH24:mi'), 7, 'Race');
-insert into "Session" (SESSION_ID, NAME, BEGIN_DATE, END_DATE, CIRCUIT_CIRCUIT_ID, SESSION_TYPE) VALUES (3, 'Misano Qualifying', to_date('22.3.2017 12:00', 'dd.mm.yyyy HH24:mi'), to_date('22.3.2017 14:00', 'dd.mm.yyyy HH24:mi'), 6, 'Qualifying');
-insert into "Session" (SESSION_ID, NAME, BEGIN_DATE, END_DATE, CIRCUIT_CIRCUIT_ID, SESSION_TYPE) VALUES (4, 'Misano Sprint Race', to_date('23.3.2017 15:00', 'dd.mm.yyyy HH24:mi'), to_date('23.3.2017 18:00', 'dd.mm.yyyy HH24:mi'), 6, 'Race');
+insert into SESSION_TYPE (SESSION_ID, NAME, BEGIN_DATE, END_DATE, CIRCUIT_CIRCUIT_ID, SESSION_TYPE) VALUES (1, 'Spa 24 Hour Qualifying', to_date('15.6.2017 14:00', 'dd.mm.yyyy HH24:mi'), to_date('15.6.2017 16:00', 'dd.mm.yyyy HH24:mi'), 7, 'Qualifying');
+insert into SESSION_TYPE (SESSION_ID, NAME, BEGIN_DATE, END_DATE, CIRCUIT_CIRCUIT_ID, SESSION_TYPE) VALUES (2, 'Spa 24 Hour Main Race', to_date('16.6.2017 15:00', 'dd.mm.yyyy HH24:mi'), to_date('17.6.2017 15:00', 'dd.mm.yyyy HH24:mi'), 7, 'Race');
+insert into SESSION_TYPE (SESSION_ID, NAME, BEGIN_DATE, END_DATE, CIRCUIT_CIRCUIT_ID, SESSION_TYPE) VALUES (3, 'Misano Qualifying', to_date('22.3.2017 12:00', 'dd.mm.yyyy HH24:mi'), to_date('22.3.2017 14:00', 'dd.mm.yyyy HH24:mi'), 6, 'Qualifying');
+insert into SESSION_TYPE (SESSION_ID, NAME, BEGIN_DATE, END_DATE, CIRCUIT_CIRCUIT_ID, SESSION_TYPE) VALUES (4, 'Misano Sprint Race', to_date('23.3.2017 15:00', 'dd.mm.yyyy HH24:mi'), to_date('23.3.2017 18:00', 'dd.mm.yyyy HH24:mi'), 6, 'Race');
 commit;
 
 -- Qualifying
