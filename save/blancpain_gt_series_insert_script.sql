@@ -61,11 +61,11 @@ commit;
 insert into DRIVER (driver_id, first_name, last_name, birth_date, gender, nationality, website_url) values (1, 'Nicki', 'Thiim', '17.04.1989', 0, 'DK', 'danskyjr.com');
 insert into DRIVER (driver_id, first_name, last_name, birth_date, gender, nationality, website_url) values (2, 'Jake', 'Dennis', '11.04.1988', 0, 'GB', null);
 insert into DRIVER (driver_id, first_name, last_name, birth_date, gender, nationality, website_url) values (3, 'Rubens', 'Barrichello', '22.06.1980', 0, 'IT', 'barrichello.com');
-insert into DRIVER (driver_id, first_name, last_name, birth_date, gender, nationality, website_url) values (4, 'Rubens2', 'Barrichello2', '22.06.1980', 0, 'IT', 'barrichello.com');
-insert into DRIVER (driver_id, first_name, last_name, birth_date, gender, nationality, website_url) values (5, 'Rene', 'Rast', '11.03.1985', 0, 'DE', 'rast.com');
-insert into DRIVER (driver_id, first_name, last_name, birth_date, gender, nationality, website_url) values (6, 'Rene2', 'Rast2', '11.03.1985', 0, 'DE', 'rast.com');
-insert into DRIVER (driver_id, first_name, last_name, birth_date, gender, nationality, website_url) values (7, 'Alex', 'Riberas', '11.03.1985', 0, 'DE', 'riberas.com');
-insert into DRIVER (driver_id, first_name, last_name, birth_date, gender, nationality, website_url) values (8, 'Alex2', 'Riberas2', '11.03.1985', 0, 'DE', 'riberas.com');
+insert into DRIVER (driver_id, first_name, last_name, birth_date, gender, nationality, website_url) values (4, 'David', 'Fumanelli', '21.04.1992', 0, 'IT', null);
+insert into DRIVER (driver_id, first_name, last_name, birth_date, gender, nationality, website_url) values (5, 'Rene', 'Rast', '26.10.1986', 0, 'DE', 'rast.com');
+insert into DRIVER (driver_id, first_name, last_name, birth_date, gender, nationality, website_url) values (6, 'Robin', 'Frijns', '07.08.1991', 0, 'NL', null);
+insert into DRIVER (driver_id, first_name, last_name, birth_date, gender, nationality, website_url) values (7, 'Alex', 'Riberas', '22.06.1987', 0, 'DE', null);
+insert into DRIVER (driver_id, first_name, last_name, birth_date, gender, nationality, website_url) values (8, 'Christopher', 'Mies', '24.05.1989', 0, 'DE', 'mies.com');
 
 commit;
 
