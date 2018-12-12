@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F36FC4C1-EBE0-B56B-05D3-331576FD2CDA" name="Session">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F36FC4C1-EBE0-B56B-05D3-331576FD2CDA" name="Session_type">
 <createdBy>ivanharasta</createdBy>
 <createdTime>2018-11-28 10:34:45 UTC</createdTime>
 <generatorID>A5FD008D-48AF-B545-9496-43D9ED2A895F</generatorID>
 <ownerDesignName>blancpain_gt_series</ownerDesignName>
+<ordsAlias>session</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
